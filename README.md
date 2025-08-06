@@ -1,6 +1,6 @@
-# 🚀 Task Manager Pro
-
 <div align="center">
+# 🚀 TaskFlow
+
 
 ![Task Manager Pro](https://img.shields.io/badge/Task%20Manager%20Pro-v1.0.0-blue?style=for-the-badge&logo=react)
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
@@ -20,11 +20,11 @@
 
 ---
 
-## 🎯 What is Task Manager Pro?
+## 🎯 What is TaskFlow?
 
-Task Manager Pro is a cutting-edge productivity application that transforms how you manage tasks and collaborate with teams. Built with modern web technologies and powered by AI, it combines the simplicity of traditional task management with advanced features that make productivity both effective and enjoyable.
+TaskFlow is a cutting-edge productivity application that transforms how you manage tasks and collaborate with teams. Built with modern web technologies and powered by AI, it combines the simplicity of traditional task management with advanced features that make productivity both effective and enjoyable.
 
-### ✨ **Why Choose Task Manager Pro?**
+### ✨ **Why Choose TaskFlow?**
 
 - 🎨 **Beautiful Design** - Glassmorphism UI with smooth animations and intuitive interactions
 - 🤖 **AI-Powered** - Smart suggestions, voice commands, and intelligent task categorization
@@ -104,7 +104,6 @@ Task Manager Pro is a cutting-edge productivity application that transforms how 
 | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-10.16.16-0055FF?style=for-the-badge&logo=framer) | 10.16.16 | Animations |
 | ![React Hook Form](https://img.shields.io/badge/React_Hook_Form-7.48.2-EC5990?style=for-the-badge) | 7.48.2 | Form Management |
 | ![React Query](https://img.shields.io/badge/React_Query-3.39.3-FF4154?style=for-the-badge) | 3.39.3 | Data Fetching |
-| ![Socket.IO Client](https://img.shields.io/badge/Socket.IO_Client-4.7.4-010101?style=for-the-badge&logo=socket.io) | 4.7.4 | Real-time Communication |
 
 ### ⚙️ **Backend Technologies**
 
@@ -115,8 +114,7 @@ Task Manager Pro is a cutting-edge productivity application that transforms how 
 | ![MongoDB](https://img.shields.io/badge/MongoDB-8.0.3-47A248?style=for-the-badge&logo=mongodb) | 8.0.3 | Database |
 | ![Mongoose](https://img.shields.io/badge/Mongoose-8.0.3-880000?style=for-the-badge) | 8.0.3 | ODM |
 | ![JWT](https://img.shields.io/badge/JWT-9.0.2-000000?style=for-the-badge&logo=json-web-tokens) | 9.0.2 | Authentication |
-| ![Socket.IO](https://img.shields.io/badge/Socket.IO-4.7.4-010101?style=for-the-badge&logo=socket.io) | 4.7.4 | Real-time Server |
-| ![OpenAI](https://img.shields.io/badge/OpenAI-4.20.1-412991?style=for-the-badge&logo=openai) | 4.20.1 | AI Integration |
+
 
 </div>
 
@@ -143,8 +141,8 @@ Task Manager Pro is a cutting-edge productivity application that transforms how 
 <summary><b>1️⃣ Clone the Repository</b></summary>
 
 ```bash
-git clone https://github.com/yourusername/task-manager-pro.git
-cd task-manager-pro
+git clone https://github.com/DeepjyotiRoy01/TaskFlow.git
+cd TaskFlow
 ```
 
 </details>
@@ -294,23 +292,6 @@ task-manager-pro/
 | `📁 server/routes/` | API route handlers | `auth.js`, `tasks.js`, `ai.js` |
 | `📁 server/middleware/` | Express middleware | `auth.js` |
 | `📁 server/services/` | Business logic | `aiService.js` |
-
-</div>
-
----
-
-## 🎯 Available Scripts
-
-<div align="center">
-
-| Script | Description | Status |
-|--------|-------------|--------|
-| `npm run dev` | Start both frontend and backend in development mode | 🟢 Ready |
-| `npm run server` | Start backend server only | 🟢 Ready |
-| `npm run client` | Start frontend development server only | 🟢 Ready |
-| `npm run build` | Build frontend for production | 🟢 Ready |
-| `npm run start` | Start production server | 🟢 Ready |
-| `npm run install-all` | Install dependencies for all packages | 🟢 Ready |
 
 </div>
 
@@ -496,8 +477,8 @@ We welcome contributions from developers of all skill levels! Here's how you can
 ```bash
 # Fork the repository on GitHub
 # Then clone your fork
-git clone https://github.com/YOUR_USERNAME/task-manager-pro.git
-cd task-manager-pro
+git clone https://github.com/DeepjyotiRoy01/TaskFlow.git
+cd TaskFlow
 ```
 
 </details>
@@ -583,155 +564,14 @@ Contributors will be recognized in our:
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
-## 🆘 Support
-
-If you encounter any issues or have questions:
-
-- 📧 **Email**: support@taskflow.com
-- 💬 **Discord**: [Join our community](https://discord.gg/taskflow)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/task-manager-pro/issues)
-- 📖 **Documentation**: [Wiki](https://github.com/yourusername/task-manager-pro/wiki)
-
----
-
-## 🗺 Roadmap
-
-<div align="center">
-
-### 🚀 **Development Timeline**
-
-| Version | Status | Release Date | Key Features |
-|---------|--------|--------------|--------------|
-| **v1.0.0** | ✅ Released | Current | Core functionality, AI features, gamification |
-| **v1.1.0** | 🔄 In Progress | Q1 2024 | Mobile app, advanced analytics |
-| **v1.2.0** | 📋 Planned | Q2 2024 | AI automation, third-party integrations |
-| **v2.0.0** | 🎯 Future | Q4 2024 | Enterprise features, API marketplace |
-
-### 📋 **Version 1.1** (Coming Soon)
-
-<details>
-<summary><b>📱 Mobile Application</b></summary>
-
-- [ ] React Native mobile app
-- [ ] Offline functionality
-- [ ] Push notifications
-- [ ] Mobile-optimized UI
-
-</details>
-
-<details>
-<summary><b>📊 Advanced Analytics</b></summary>
-
-- [ ] Real-time analytics dashboard
-- [ ] Custom report builder
-- [ ] Data export functionality
-- [ ] Performance insights
-
-</details>
-
-<details>
-<summary><b>👥 Team Collaboration</b></summary>
-
-- [ ] Team workspaces
-- [ ] Role-based permissions
-- [ ] Team chat integration
-- [ ] Shared templates
-
-</details>
-
-<details>
-<summary><b>📅 Calendar Integration</b></summary>
-
-- [ ] Google Calendar sync
-- [ ] Outlook integration
-- [ ] Calendar view for tasks
-- [ ] Meeting scheduling
-
-</details>
-
-### 📋 **Version 1.2** (Planned)
-
-<details>
-<summary><b>🤖 AI-Powered Automation</b></summary>
-
-- [ ] Smart task scheduling
-- [ ] Automated task categorization
-- [ ] Intelligent time estimation
-- [ ] Workflow automation
-
-</details>
-
-<details>
-<summary><b>📈 Advanced Reporting</b></summary>
-
-- [ ] Custom report templates
-- [ ] Advanced filtering options
-- [ ] Data visualization tools
-- [ ] Export to multiple formats
-
-</details>
-
-<details>
-<summary><b>🔗 Third-Party Integrations</b></summary>
-
-- [ ] Slack integration
-- [ ] Microsoft Teams
-- [ ] GitHub/GitLab
-- [ ] CRM systems
-
-</details>
-
-<details>
-<summary><b>🏷️ White-Label Solution</b></summary>
-
-- [ ] Custom branding options
-- [ ] Multi-tenant architecture
-- [ ] Custom domain support
-- [ ] API access
-
-</details>
-
-### 📋 **Version 2.0** (Future)
-
-<details>
-<summary><b>🏢 Enterprise Features</b></summary>
-
-- [ ] SSO integration
-- [ ] Advanced security features
-- [ ] Compliance tools
-- [ ] Enterprise support
-
-</details>
-
-<details>
-<summary><b>🔧 Custom Workflows</b></summary>
-
-- [ ] Visual workflow builder
-- [ ] Custom automation rules
-- [ ] Advanced permissions
-- [ ] Workflow templates
-
-</details>
-
-<details>
-<summary><b>🛒 API Marketplace</b></summary>
-
-- [ ] Public API documentation
-- [ ] Developer portal
-- [ ] API rate limiting
-- [ ] Third-party plugins
-
-</details>
 
 ### 🎯 **Feature Request**
 
 Have an idea for a feature? We'd love to hear it!
 
 - 📧 **Email**: features@taskflow.com
-- 💬 **Discord**: [Join our community](https://discord.gg/taskflow)
-- 🐛 **GitHub**: [Create an issue](https://github.com/yourusername/task-manager-pro/issues)
+- 🐛 **GitHub**: [Create an issue](https://github.com/DeepjyotiRoy01/TaskFlow/issues)
 
 </div>
 
@@ -752,7 +592,7 @@ We'd like to express our gratitude to the amazing open-source community and the 
 | ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css) | **Tailwind CSS** | Utility-first CSS framework |
 | ![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=flat-square&logo=framer) | **Framer Motion** | Smooth animations |
 | ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb) | **MongoDB** | Flexible database |
-| ![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai) | **OpenAI** | AI-powered features |
+
 
 ### 🌟 **Community Contributors**
 
@@ -776,22 +616,6 @@ If you find this project helpful, please consider:
 
 <div align="center">
 
-## 🚀 **Task Manager Pro**
-
-*A modern, interactive task management application with AI-powered features, gamification, and beautiful UI/UX*
-
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/task-manager-pro?style=social)](https://github.com/yourusername/task-manager-pro/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/task-manager-pro?style=social)](https://github.com/yourusername/task-manager-pro/network)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/task-manager-pro)](https://github.com/yourusername/task-manager-pro/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/yourusername/task-manager-pro)](https://github.com/yourusername/task-manager-pro/pulls)
-
----
-
-**Made with ❤️ by the Task Manager Pro Team**
-
-[🌐 Website](#) • [📧 Email](mailto:support@taskflow.com) • [💬 Discord](https://discord.gg/taskflow) • [🐛 Issues](https://github.com/yourusername/task-manager-pro/issues)
-
----
 
 *If you found this project helpful, please give it a ⭐ star on GitHub!*
 
