@@ -1,7 +1,11 @@
 <div align="center">
-# 🚀 TaskFlow
 
+  # 🚀 TaskFlow
 
+</div>  
+
+<div align="center">
+  
 ![Task Manager Pro](https://img.shields.io/badge/Task%20Manager%20Pro-v1.0.0-blue?style=for-the-badge&logo=react)
 ![React](https://img.shields.io/badge/React-18.2.0-61DAFB?style=for-the-badge&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.3.3-3178C6?style=for-the-badge&logo=typescript)
